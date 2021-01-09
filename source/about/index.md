@@ -2,6 +2,8 @@
 title: 关于我
 date: 2021-01-08 20:27:37
 mathjax: true
+sticky: 100
+hide: false
 ---
 {% cq %}Simplicity is the ultimate form of sophistication{% endcq %}
 
@@ -65,3 +67,4 @@ mathjax: true
 
 
 
+ 
