@@ -115,13 +115,13 @@ GB即国标，GBK即国标扩展，这三种编码的本质除了字节长度的
 
 oh-my-posh类似于linux系统中的oh-my-zsh主要作用是对于命令行的美化，但对于oh-my-posh设置后往往会出现方块问题（该问题同样在WSL的oh-my-zsh中存在），问题示意如下图。
 
-![image-20210111203210867](https://i.loli.net/2021/01/11/tUgL4AHnI2mdwhW.png)
+![](https://i.loli.net/2021/01/11/VUDqMnbuxjXyJ7i.png)
 
 由上述可知，出现方块的字符的主要原因是，字体库中不支持该字符编码导致的问题，具体的解决方案如下。
 
 下载并安装https://github.com/ryanoasis/nerd-fonts内的字体并进行安装，将内部的字体设置更换为安装的字体。结果如下所示。
 
-![image-20210111203645195](C:\Users\CRUN\AppData\Roaming\Typora\typora-user-images\image-20210111203645195.png)
+![](https://i.loli.net/2021/01/11/nqEsWi17Rdj58Lh.png)
 
 解决问题的核心在于nerd-fonts提供的字体库能提供相应所需的符号。
 
